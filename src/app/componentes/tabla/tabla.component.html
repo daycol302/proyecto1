@@ -1,0 +1,10 @@
+<section id="seccion">
+    <h1>Tablas de multiplicar</h1>
+    <input [(ngModel)]="dato" type="number"/>
+    <ul>
+        <li *ngFor="let i of numero">
+        {{dato}} x {{i}} = {{dato * i}}
+    </li>
+    </ul>
+    
+</section>
